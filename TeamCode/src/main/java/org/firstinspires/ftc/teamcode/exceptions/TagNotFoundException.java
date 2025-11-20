@@ -12,7 +12,6 @@ public class TagNotFoundException extends RuntimeException
 
     /**
      * "The AprilTag with ID " + id + " was not found."
-     *
      * @param id The ID of the AprilTag that was not found.
      */
     public TagNotFoundException(int id)
